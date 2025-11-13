@@ -4,12 +4,12 @@
   <metadata>
     <id>files</id>
     <version>4.0.11</version>
-    <packageSourceUrl>https://github.com/w0/au-packages/tree/master/files</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Josh65-2201/chocolaty-pkgs</packageSourceUrl>
     <owners>wizard</owners>
     <title>files</title>
     <authors>Files Community</authors>
     <projectUrl>https://files.community</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/w0/au-packages/master/files/icon.png</iconUrl>
+    <iconUrl>https://github.com/Josh65-2201/chocolaty-pkgs/blob/main/files/icon.png?raw=true</iconUrl>
     <copyright>2018 - present Files Community</copyright>
     <licenseUrl>https://github.com/files-community/Files/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,7 +17,7 @@
     <docsUrl>https://files.community/docs</docsUrl>
     <bugTrackerUrl>https://github.com/files-community/Files/issues</bugTrackerUrl>
     <tags>files manager file</tags>
-    <summary>Files is a file manager for Windows with a powerful yet intuitive design. It has features like multiple tabs, dual pane, columns and tags.</summary>
+    <summary>A modern file manager that helps users organize their files and folders. </summary>
     <description>
       <p align="center">
         <img alt="Files hero image" src="https://github.com/files-community/Files/blob/main/.github/assets/ReadmeHero.png?raw=true" />

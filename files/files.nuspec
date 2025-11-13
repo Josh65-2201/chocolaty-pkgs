@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>files</id>
+    <version>4.0.11</version>
+    <packageSourceUrl>https://github.com/w0/au-packages/tree/master/files</packageSourceUrl>
+    <owners>wizard</owners>
+    <title>files</title>
+    <authors>Files Community</authors>
+    <projectUrl>https://files.community</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/w0/au-packages/master/files/icon.png</iconUrl>
+    <copyright>2018 - present Files Community</copyright>
+    <licenseUrl>https://github.com/files-community/Files/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/files-community/Files</projectSourceUrl>
+    <docsUrl>https://files.community/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/files-community/Files/issues</bugTrackerUrl>
+    <tags>files manager file</tags>
+    <summary>Files is a file manager for Windows with a powerful yet intuitive design. It has features like multiple tabs, dual pane, columns and tags.</summary>
+    <description>
+      <p align="center">
+        <img alt="Files hero image" src="https://github.com/files-community/Files/blob/main/.github/assets/ReadmeHero.png?raw=true" />
+      </p>
+
+      <p align="center">
+        <a style="text-decoration:none" href="https://files.community/">
+          <img src="https://img.shields.io/badge/Files-Website-F9B81F" alt="Files Website" /></a>
+        <a style="text-decoration:none" href="https://github.com/files-community/Files/actions/workflows/ci.yml">
+          <img src="https://github.com/files-community/Files/actions/workflows/ci.yml/badge.svg" alt="Files CI Status" /></a>
+        <a style="text-decoration:none" href="https://crowdin.com/project/files-app">
+          <img src="https://badges.crowdin.net/files-app/localized.svg" alt="Files Localization Status" /></a>
+        <a style="text-decoration:none" href="https://discord.gg/files">
+          <img src="https://img.shields.io/discord/725513575971684472?label=Discord&color=7289da" alt="Files Discord" /></a>
+      </p>
+
+      Files is a modern file manager that helps users organize their files and folders. Our mission with Files is to build the best file manager for Windows, and we’re proud to be building it out in the open so everyone can participate. User feedback helps shape the features we work on, & the bug reports on GitHub help to make Files more reliable. Built and maintained by the open-source community, Files features robust multitasking experiences, file tags, deep integrations, and an intuitive design.
+
+      ## Building from source
+
+      Instructions for building the source code can be found on our [documentation site](https://files.community/docs/contributing/building-from-source).
+
+
+      ## Contributing to Files
+
+      Want to contribute to this project? Let us know with an [issue](https://github.com/files-community/Files/issues) that communicates your intent to create a [pull request](https://github.com/files-community/Files/pulls). Also, view our [contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
+
+      Looking for a place to start? Check out the [task board](https://github.com/orgs/files-community/projects/3/views/2), where you can sort tasks by size and priority.
+
+      ## Screenshots
+
+      ![Files](https://github.com/files-community/Files/blob/main/.github/assets/FilesScreenshot.png?raw=true)
+    </description>
+    <releaseNotes>https://files.community/blog/posts/v4-0-11</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>

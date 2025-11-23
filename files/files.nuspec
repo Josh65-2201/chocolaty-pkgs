@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>files</id>
-    <version>4.0.11</version>
-    <packageSourceUrl>https://github.com/Josh65-2201/chocolaty-pkgs</packageSourceUrl>
-    <owners>wizard</owners>
+    <version>4.0.20</version>
+    <packageSourceUrl>https://github.com/Josh65-2201/chocolaty-pkgs/tree/main/files</packageSourceUrl>
+    <owners>Josh65</owners>
     <title>files</title>
     <authors>Files Community</authors>
     <projectUrl>https://files.community</projectUrl>
-    <iconUrl>https://github.com/Josh65-2201/chocolaty-pkgs/blob/main/files/icon.png?raw=true</iconUrl>
+    <iconUrl>https://github.com/files-community/Files/blob/main/src/Files.App%20(Package)/Assets/AppTiles/Release/StoreLogo.scale-200.png?raw=true</iconUrl>
     <copyright>2018 - present Files Community</copyright>
     <licenseUrl>https://github.com/files-community/Files/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -51,7 +51,7 @@
 
       ![Files](https://github.com/files-community/Files/blob/main/.github/assets/FilesScreenshot.png?raw=true)
     </description>
-    <releaseNotes>https://files.community/blog/posts/v4-0-11</releaseNotes>
+    <releaseNotes>https://files.community/blog/posts/v4-0-20</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

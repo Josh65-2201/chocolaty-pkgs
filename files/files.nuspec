@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>files</id>
-    <version>4.0.20</version>
+    <version>4.0.21</version>
     <packageSourceUrl>https://github.com/Josh65-2201/chocolaty-pkgs/tree/main/files</packageSourceUrl>
     <owners>Josh65</owners>
     <title>files</title>
     <authors>Files Community</authors>
     <projectUrl>https://files.community</projectUrl>
-    <iconUrl>https://github.com/files-community/Files/blob/main/src/Files.App%20(Package)/Assets/AppTiles/Release/StoreLogo.scale-200.png?raw=true</iconUrl>
+    <iconUrl>http://rawcdn.githack.com/Josh65-2201/chocolaty-pkgs/master/files/icon.png</iconUrl>
     <copyright>2018 - present Files Community</copyright>
     <licenseUrl>https://github.com/files-community/Files/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,23 +18,22 @@
     <bugTrackerUrl>https://github.com/files-community/Files/issues</bugTrackerUrl>
     <tags>files manager file</tags>
     <summary>A modern file manager that helps users organize their files and folders. </summary>
-    <description>
-      Discord - https://discord.gg/files | Translations - https://crowdin.com/project/files-app
+    <description>[Documentation](https://files.community/docs) | [Translations](https://crowdin.com/project/files-app) | [Discord](https://discord.gg/files)
 
-      Files is a modern file manager that helps users organize their files and folders. Our mission with Files is to build the best file manager for Windows, and we’re proud to be building it out in the open so everyone can participate. User feedback helps shape the features we work on, &amp; the bug reports on GitHub help to make Files more reliable. Built and maintained by the open-source community, Files features robust multitasking experiences, file tags, deep integrations, and an intuitive design.
-
-      ## Building from source
-
-      Instructions for building the source code can be found on our [documentation site](https://files.community/docs/contributing/building-from-source).
+Files is a modern file manager that helps users organize their files and folders. Our mission with Files is to build the best file manager for Windows, and we’re proud to be building it out in the open so everyone can participate. User feedback helps shape the features we work on, &amp; the bug reports on GitHub help to make Files more reliable. Built and maintained by the open-source community, Files features robust multitasking experiences, file tags, deep integrations, and an intuitive design.
 
 
-      ## Contributing to Files
+## Building from source
 
-      Want to contribute to this project? Let us know with an [issue](https://github.com/files-community/Files/issues) that communicates your intent to create a [pull request](https://github.com/files-community/Files/pulls). Also, view our [contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
+Instructions for building the source code can be found on our [documentation site](https://files.community/docs/contributing/building-from-source).
 
-      Looking for a place to start? Check out the [task board](https://github.com/orgs/files-community/projects/3/views/2), where you can sort tasks by size and priority.
-    </description>
-    <releaseNotes>https://files.community/blog/posts/v4-0-20</releaseNotes>
+
+## Contributing to Files
+
+Want to contribute to this project? Let us know with an [issue](https://github.com/files-community/Files/issues) that communicates your intent to create a [pull request](https://github.com/files-community/Files/pulls). Also, view our [contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
+
+Looking for a place to start? Check out the [task board](https://github.com/orgs/files-community/projects/3/views/2), where you can sort tasks by size and priority.</description>
+    <releaseNotes>https://files.community/blog/posts/v4-0-21</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

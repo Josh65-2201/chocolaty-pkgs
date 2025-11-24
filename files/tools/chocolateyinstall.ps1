@@ -4,8 +4,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $WindowsVersion=[Environment]::OSVersion.Version
 
-if (($WindowsVersion.Major -ne '10') -and ($WindowsVersion.Build -lt '18362')) {
-  Throw 'This Package requires at least Windows 10 Build 18362 or newer.'
+if (($WindowsVersion.Major -ne '10') -and ($WindowsVersion.Build -lt '19041')) {
+  Throw 'This Package requires at least Windows 10 Build 19041 or newer.'
 }
 
 $AppInstaller = Get-ChildItem -Path $toolsDir -Recurse -Filter "*.appinstaller"

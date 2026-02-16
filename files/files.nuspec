@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>files</id>
-    <version>4.0.24</version>
+    <version>4.0.28</version>
     <packageSourceUrl>https://github.com/Josh65-2201/chocolaty-pkgs/tree/main/files</packageSourceUrl>
     <owners>Josh65</owners>
     <title>files</title>
@@ -33,7 +33,7 @@ Instructions for building the source code can be found on our [documentation sit
 Want to contribute to this project? Let us know with an [issue](https://github.com/files-community/Files/issues) that communicates your intent to create a [pull request](https://github.com/files-community/Files/pulls). Also, view our [contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
 
 Looking for a place to start? Check out the [task board](https://github.com/orgs/files-community/projects/3/views/2), where you can sort tasks by size and priority.</description>
-    <releaseNotes>https://files.community/blog/posts/v4-0-24</releaseNotes>
+    <releaseNotes>https://files.community/blog/posts/v4-0-28</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

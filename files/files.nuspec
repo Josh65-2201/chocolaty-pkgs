@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>files</id>
-    <version>4.0.28</version>
+    <version>4.0.34.0</version>
     <packageSourceUrl>https://github.com/Josh65-2201/chocolaty-pkgs/tree/main/files</packageSourceUrl>
     <owners>Josh65</owners>
     <title>files</title>
@@ -17,7 +17,7 @@
     <docsUrl>https://files.community/docs</docsUrl>
     <bugTrackerUrl>https://github.com/files-community/Files/issues</bugTrackerUrl>
     <tags>files manager file</tags>
-    <summary>A modern file manager that helps users organize their files and folders. </summary>
+    <summary>A modern file manager that helps users organize their files and folders</summary>
     <description>[Documentation](https://files.community/docs) | [Translations](https://crowdin.com/project/files-app) | [Discord](https://discord.gg/files)
 
 Files is a modern file manager that helps users organize their files and folders. Our mission with Files is to build the best file manager for Windows, and we’re proud to be building it out in the open so everyone can participate. User feedback helps shape the features we work on, &amp; the bug reports on GitHub help to make Files more reliable. Built and maintained by the open-source community, Files features robust multitasking experiences, file tags, deep integrations, and an intuitive design.
@@ -33,7 +33,7 @@ Instructions for building the source code can be found on our [documentation sit
 Want to contribute to this project? Let us know with an [issue](https://github.com/files-community/Files/issues) that communicates your intent to create a [pull request](https://github.com/files-community/Files/pulls). Also, view our [contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
 
 Looking for a place to start? Check out the [task board](https://github.com/orgs/files-community/projects/3/views/2), where you can sort tasks by size and priority.</description>
-    <releaseNotes>https://files.community/blog/posts/v4-0-28</releaseNotes>
+    <releaseNotes>https://files.community/blog/posts/v4-0-34</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

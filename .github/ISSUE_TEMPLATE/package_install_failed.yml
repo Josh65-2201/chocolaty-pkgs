@@ -1,4 +1,5 @@
 name: Package install failed
+description: _
 labels: ["Type - Bug", "Needs - Review"]
 body:
   - type: dropdown

@@ -1,0 +1,18 @@
+name: Package install failed
+labels: ["Type - Bug", "Needs - Review"]
+body:
+  - type: dropdown
+    id: packageName
+    attributes:
+      label: Package name
+      options:
+        - Files stable
+        - Files preview
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Command line output
+    validations:
+      required: true

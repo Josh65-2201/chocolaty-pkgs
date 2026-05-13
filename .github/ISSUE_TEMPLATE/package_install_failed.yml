@@ -7,8 +7,9 @@ body:
     attributes:
       label: Package name
       options:
-        - Files stable
-        - Files preview
+        - Select
+        - Files - Stable
+        - Files - Preview
     validations:
       required: true
 
@@ -17,3 +18,9 @@ body:
       label: Command line output
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: Comments
+    validations:
+      required: false
